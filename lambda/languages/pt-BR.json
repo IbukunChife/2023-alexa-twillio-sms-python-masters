@@ -1,0 +1,76 @@
+{
+  "SKILL_NAME": "o Exemplo do Template Senior Lab Twilio",
+  "WELCOME": [
+    "Bem-vindo ao {}. Para começar a enviar mensagens, você precisa salvar o número de telefone do destinatário como um contato. Por favor, me diga um número de telefone que você gostaria de salvar."
+  ],
+  "WELCOME_REPROMPT": [
+    "Por favor, me diga um número de telefone que você gostaria de salvar."
+  ],
+  "WELCOME_BACK": [
+    "Bem-vindo ao {}. Você gostaria de salvar um novo contato ou enviar uma mensagem de texto?"
+  ],
+  "WELCOME_BACK_REPROMPT": [
+    "Você gostaria de salvar um novo contato ou enviar uma mensagem de texto?"
+  ],
+  "PHONE_NUMBER_CONFIRMED": [
+    "Ok. Qual é o nome do contato?",
+    "Ok. Como devo nomear este contato?",
+    "Ok. Com que nome devo salvar este contato?"
+  ],
+  "PHONE_NUMBER_CONFIRMED_REPROMPT": ["Qual é o nome do contato?"],
+  "PHONE_NUMBER_UNCONFIRMED": [
+    "Não consegui entender o número de telefone. Você pode repeti-lo, por favor?"
+  ],
+  "PHONE_NUMBER_UNCONFIRMED_REPROMPT": [
+    "Por favor, repita o número de telefone que deseja salvar."
+  ],
+  "CONTACT_SAVED": [
+    "Obrigado. Eu salvei o contato com sucesso e agora você pode enviar mensagens para ele. O que você gostaria de fazer? Salvar outro contato ou enviar uma nova mensagem?"
+  ],
+  "CONTACT_SAVED_REPROMPT": [
+    "Você gostaria de salvar outro contato ou enviar uma nova mensagem?"
+  ],
+  "CONTACT_NOT_SAVED": [
+    "Desculpe, não consegui entender o nome. Você pode repetir, por favor?"
+  ],
+  "CONTACT_NOT_SAVED_REPROMPT": ["Por favor, repita o nome do contato."],
+  "SAVE_NEW_CONTACT": [
+    "Claro. Por favor, me diga o número de telefone que você quer salvar."
+  ],
+  "SAVE_NEW_CONTACT_REPROMPT": [
+    "Por favor, me diga o número de telefone que você quer salvar."
+  ],
+  "SEND_TEXT_MESSAGE": ["Ok. Por favor, me diga a mensagem."],
+  "SEND_TEXT_MESSAGE_REPROMPT": ["Qual é a sua mensagem?"],
+  "MESSAGE_RECEIVED": ["Para quem você gostaria de enviar esta mensagem?"],
+  "MESSAGE_RECEIVED_REPROMPT": [
+    "Por favor, especifique um nome da sua lista de contatos para enviar a mensagem."
+  ],
+  "ERROR_WITH_MESSAGE": [
+    "Desculpe, não consegui entender a mensagem. Você pode repeti-la, por favor?"
+  ],
+  "ERROR_WITH_MESSAGE_REPROMPT": ["Você pode repetir a mensagem , por favor?"],
+  "MESSAGE_SENT": [
+    "Enviei sua mensagem com sucesso. O que você gostaria de fazer agora?"
+  ],
+  "MESSAGE_SENT_REPROMPT": ["O que você gostaria de fazer agora?"],
+  "CONTACT_NOT_FOUND": [
+    "Desculpe, não consegui encontrar nenhum contato com esse nome. Por favor, forneça um nome de contato válido."
+  ],
+  "CONTACT_NOT_FOUND_REPROMPT": [
+    "Por favor, forneça um nome de contato válido."
+  ],
+  "MESSAGE_NOT_SENT": [
+    "Desculpe, houve um erro ao tentar enviar a mensagem. Por favor, especifique o nome do contato novamente para continuar."
+  ],
+  "MESSAGE_NOT_SENT_REPROMPT": [
+    "Por favor, especifique o nome do contato novamente para continuar."
+  ],
+  "HELP": ["Este é o prompt de ajuda."],
+  "HELP_REPROMPT": ["Este é o reprompt de ajuda."],
+  "FALLBACK": ["Desculpe, eu não entendi isso. Você pode repetir, por favor?"],
+  "FALLBACK_REPROMPT": ["Você pode repetir, por favor?"],
+  "CANCEL_STOP_RESPONSE": ["Adeus", "Ok. Estarei aqui se precisar de mim."],
+  "ERROR": "Desculpe, não consegui atender à sua última solicitação. Você poderia repetir?",
+  "ERROR_REPROMPT": "Você poderia repetir?"
+}

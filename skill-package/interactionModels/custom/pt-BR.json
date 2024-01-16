@@ -1,0 +1,146 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "modelo cinquenta e nove",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "MyMessageIsIntent",
+          "slots": [
+            {
+              "name": "message_text",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "diga a ela {message_text}",
+            "diga a ele {message_text}",
+            "minha mensagem é que {message_text}",
+            "aqui está a mensagem {message_text}",
+            "o texto da mensagem é {message_text}",
+            "envie a mensagem {message_text}",
+            "mensagem é {message_text}",
+            "a mensagem é {message_text}",
+            "minha mensagem é {message_text}"
+          ]
+        },
+        {
+          "name": "ChooseContactIntent",
+          "slots": [
+            {
+              "name": "recipient_name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "envie essa mensagem para {recipient_name}",
+            "envie isso para {recipient_name}",
+            "envie mensagem para {recipient_name}",
+            "para {recipient_name}",
+            "envie a mensagem para {recipient_name}",
+            "envie para {recipient_name}"
+          ]
+        },
+        {
+          "name": "SaveNewContactIntent",
+          "slots": [],
+          "samples": [
+            "salve outro",
+            "salve outro número de telefone",
+            "salve outro contato",
+            "adicione novo contato à agenda",
+            "adicione outro número de telefone",
+            "adicione novo número de telefone",
+            "adicione novo contato ao banco de dados",
+            "adicione um novo contato à lista",
+            "quero adicionar um novo contato",
+            "adicione novo contato",
+            "adicione um novo contato",
+            "salve novo contato"
+          ]
+        },
+        {
+          "name": "SendTextMessageIntent",
+          "slots": [],
+          "samples": [
+            "envie uma nova mensagem",
+            "quero enviar uma mensagem",
+            "envie mensagem de texto",
+            "envie um SMS",
+            "envie uma mensagem",
+            "quero enviar um texto"
+          ]
+        },
+        {
+          "name": "PhoneNumberIsIntent",
+          "slots": [
+            {
+              "name": "phone_number",
+              "type": "AMAZON.PhoneNumber"
+            }
+          ],
+          "samples": [
+            "o número é {phone_number}",
+            "{phone_number}",
+            "o número de contato é {phone_number}",
+            "o número é {phone_number}",
+            "o número de telefone é {phone_number}"
+          ]
+        },
+        {
+          "name": "TheNameIsIntent",
+          "slots": [
+            {
+              "name": "contact_name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "salve o contato com o nome {contact_name}",
+            "o nome do contato é {contact_name}",
+            "é {contact_name}",
+            "o nome é {contact_name}",
+            "o nome do contato é {contact_name}",
+            "salve com o nome {contact_name}",
+            "o nome dela é {contact_name}",
+            "o nome dele é {contact_name}",
+            "o nome é {contact_name}"
+          ]
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  }
+}

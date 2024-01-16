@@ -1,0 +1,147 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "template fifty nine",
+      "intents": [
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "MyMessageIsIntent",
+          "slots": [
+            {
+              "name": "message_text",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "tell her {message_text}",
+            "tell him {message_text}",
+            "my message is that {message_text}",
+            "here\u0027s the message {message_text}",
+            "the text of the message is {message_text}",
+            "send the message {message_text}",
+            "message is {message_text}",
+            "the message is {message_text}",
+            "my message is {message_text}"
+          ]
+        },
+        {
+          "name": "ChooseContactIntent",
+          "slots": [
+            {
+              "name": "recipient_name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "send that message to {recipient_name}",
+            "send that to {recipient_name}",
+            "send message to {recipient_name}",
+            "to {recipient_name}",
+            "send the message to {recipient_name}",
+            "send it to {recipient_name}"
+          ]
+        },
+        {
+          "name": "SaveNewContactIntent",
+          "slots": [],
+          "samples": [
+            "save another one",
+            "save another phone number",
+            "save another contact",
+            "add new contact to the phonebook",
+            "add another phone number",
+            "add new phone number",
+            "add new contact to the database",
+            "add a new contact to the list",
+            "I want to add a new contact",
+            "add new contact",
+            "add a new contact",
+            "save new contact"
+          ]
+        },
+        {
+          "name": "SendTextMessageIntent",
+          "slots": [],
+          "samples": [
+            "send a new message",
+            "I want to send a message",
+            "send text message",
+            "send an s. m. s.",
+            "send a message",
+            "I want to send a text"
+          ]
+        },
+        {
+          "name": "PhoneNumberIsIntent",
+          "slots": [
+            {
+              "name": "phone_number",
+              "type": "AMAZON.PhoneNumber"
+            }
+          ],
+          "samples": [
+            "number is {phone_number}",
+            "{phone_number}",
+            "the contact number is {phone_number}",
+            "the number is {phone_number}",
+            "the phone number is {phone_number}"
+          ]
+        },
+        {
+          "name": "TheNameIsIntent",
+          "slots": [
+            {
+              "name": "contact_name",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "save the contact by the name {contact_name}",
+            "the contact name is {contact_name}",
+            "it is {contact_name}",
+            "name is {contact_name}",
+            "the name of the contact is {contact_name}",
+            "save it by the name {contact_name}",
+            "her name is {contact_name}",
+            "his name is {contact_name}",
+            "the name is {contact_name}"
+          ]
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "12"
+}
